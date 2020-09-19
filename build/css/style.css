@@ -341,7 +341,7 @@ input, textarea {
 
 @font-face {
   font-family: 'Russia';
-  src: url("/fonts/Russia.woff2") format("woff2"), url("/fonts/Russia.woff") format("woff");
+  src: url("../fonts/Russia.woff2") format("woff2"), url("../fonts/Russia.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
