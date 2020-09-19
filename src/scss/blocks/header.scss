@@ -1,0 +1,46 @@
+.header{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 45px 0 62px;
+  &__logo{
+    display: flex;
+    align-items: center;
+  }
+  &__img{
+    margin-right: 14px;
+  }
+  &__title{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  &__link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #9CBAF0;
+    margin-right: 47px;
+    transition: all .5s;
+    &:last-child{
+      margin: 0;
+    }
+    &-active,&:hover{
+      color: white;
+    }
+  }
+  &__login_link{
+    display: flex;
+    align-items: center;
+    background: #1740AA;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 8.5px 30px;
+  }
+  &__login_img{
+    margin-right: 9px;
+  }
+  &__login_title{
+    font-size: 14px;
+  }
+}
